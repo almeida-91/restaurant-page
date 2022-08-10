@@ -1,6 +1,8 @@
-import navBar from "./loadmenu";
+import footer from "./footer.js";
+import navBar from "./navbar.js";
 
 export function contact(){
-    console.log('Success');
     navBar();
+    const content = document.getElementById('content');
+    footer();
 }
