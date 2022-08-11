@@ -6,6 +6,9 @@ export default function pageLoad(){
     
     const content = document.getElementById('content');
     navBar();
+    const menuHome = document.getElementById('menuHome');
+    menuHome.style.textDecoration = 'underline';
+
 
     // Header    
     const headLine = document.createElement('h1');

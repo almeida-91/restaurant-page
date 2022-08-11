@@ -10,5 +10,11 @@ export default function footer(){
     backgroundCredit.innerHTML = "Background image from Freepik";
     footer.appendChild(backgroundCredit);
 
+    const iconCredit = document.createElement('a');
+    iconCredit.classList.add('link');
+    iconCredit.href = "https://www.flaticon.com/";
+    iconCredit.innerHTML = "Icon images from Flaticon";
+    footer.appendChild(iconCredit);
+
     content.appendChild(footer);
 }

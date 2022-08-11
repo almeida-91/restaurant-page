@@ -16,6 +16,7 @@ export default function navBar(){
 
     // Homepage Link
     const menuHome = document.createElement('a');
+    menuHome.id = 'menuHome';
     menuHome.href = '#';
     menuHome.innerHTML = 'Homepage';
     menuHome.addEventListener('click',pageLoad);
@@ -23,6 +24,7 @@ export default function navBar(){
 
     // Menu Link
     const menuMenu = document.createElement('a');
+    menuMenu.id = 'menuMenu';
     menuMenu.href = '#';
     menuMenu.innerHTML = 'Menu';
     menuMenu.addEventListener('click',mennu);
@@ -30,6 +32,7 @@ export default function navBar(){
 
     // Contact Link
     const menuContact = document.createElement('a');
+    menuContact.id = 'menuContact';
     menuContact.href = '#';
     menuContact.innerHTML = 'Contact';
     menuContact.addEventListener('click', contact);
