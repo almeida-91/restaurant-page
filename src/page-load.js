@@ -14,7 +14,7 @@ export default function pageLoad(){
     const headLine = document.createElement('h1');
     headLine.classList.add('title');
 
-    headLine.innerHTML = "Restaurant Name";
+    headLine.innerHTML = "Ristorante";
     content.appendChild(headLine);
     
     // Image
